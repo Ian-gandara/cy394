@@ -9,7 +9,7 @@ def get_db():
     again.
     """
     mydb = mysql.connector.connect(
-            host="0.0.0.0", user='flaskuser', password='flaskpass', database='flaskdb'
+            host="db", user='flaskuser', password='flaskpass', database='flaskdb'
         )
     print("Connected db:")
     
